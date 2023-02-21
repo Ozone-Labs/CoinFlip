@@ -1,0 +1,29 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Julee', cursive;
+}
+
+
+@keyframes resize {
+  0% {
+    transform: scale(1);
+    /* Starting size */
+  }
+
+  50% {
+    transform: scale(1.5);
+    /* Intermediate size */
+  }
+
+  100% {
+    transform: scale(1);
+
+  }
+}
+
+.hello {
+  animation: 2s ease-in-out infinite;
+}
